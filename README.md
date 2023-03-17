@@ -5,7 +5,7 @@ This repo provides the data, code, and website for our work on "Cellular deconst
 
 The preprint version of our manuscript can be viewed and cited: [Zhang*, Jonsson*, Nathan*, Wei*, Millard*, et al, bioRxiv, 2022](https://www.biorxiv.org/content/10.1101/2022.02.25.481990v1.abstract)
 
-# <img src="https://github.com/immunogenomics/RA_Atlas_CITEseq/blob/master/figure/overview.png" width="800" align="center">
+<img src="https://github.com/immunogenomics/RA_Atlas_CITEseq/blob/master/figure/overview.png" width="800" align="center">
 
 
 ## Website
