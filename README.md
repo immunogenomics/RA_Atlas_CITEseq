@@ -5,6 +5,9 @@ This repo provides the data, code, and website for our work on "Cellular deconst
 
 The preprint version of our manuscript can be viewed and cited: [Zhang*, Jonsson*, Nathan*, Wei*, Millard*, et al, bioRxiv, 2022](https://www.biorxiv.org/content/10.1101/2022.02.25.481990v1.abstract)
 
+# <img src="https://https://github.com/immunogenomics/RA_Atlas_CITEseq/blob/main/lab_logo_website.png" width="220" align="right">
+
+
 ## Website
 Feel free to check out our [Website](https://immunogenomics.io/ampra2/) regarding the results and data.
 
