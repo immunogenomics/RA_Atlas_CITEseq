@@ -6,11 +6,12 @@ This repo provides the data, code, and website for our work on "Cellular deconst
 The preprint version of our manuscript can be viewed and cited: [Zhang*, Jonsson*, Nathan*, Wei*, Millard*, et al, bioRxiv, 2022.](https://www.biorxiv.org/content/10.1101/2022.02.25.481990v1.abstract)
 
 ```
-- RA Synovial Single-cell Multimodal Cell Atlas: Single-cell multimodal transcriptomics and proteomics integrative analysis
-- Inflammatory tissue stratification/classification: RA Synovial Cell Type Abundance Phenotypes (CTAPs)
-- Associations of certain CTAPs with disease-relevant cytokines, histology, serology metrics, and causal RA genetics
+- RA Synovial Single-cell Multimodal (transcriptomics and Proteomics) Cell Atlas
+- Inflammatory tissue stratification: RA Synovial Cell Type Abundance Phenotypes (CTAPs)
+- Associations of certain CTAPs with disease-relevant cytokines, histology, serology metrics
+- Reveal significant associations between RA causal genes and cell type-specific synovial CTAPs
 - Infer inflammatory phenotypes from clinical trial bulk RNA-seq of RA synovial tissue
-- Functional cell-cell interaction and immune mediator assays validate the biologically distinct environments
+- Functional cell-cell interaction and immune mediator assays
 - Microscopy analysis for different synovial phenotypes 
 ```
 
