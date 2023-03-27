@@ -19,7 +19,7 @@ The preprint version of our manuscript can be viewed and cited: [Zhang*, Jonsson
 
 
 ## Website
-Feel free to check out our [Website](https://immunogenomics.io/ampra2/) regarding the results and data.
+Feel free to check out our [Website](https://immunogenomics.io/ampra2/) regarding the single-cell data and results.
 
 
 ## Source code
