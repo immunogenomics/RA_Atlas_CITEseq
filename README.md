@@ -28,3 +28,6 @@ Source code for reproducing the results are available at our [Github repo](https
 
 ## Data availability
 All the raw, processed, results, and metadata will be available at Synapse.
+
+## Contact
+Please email Fan Zhang (fanzhanglab@gmail.com) and Helena Jonsson (a.helena.jonsson@gmail.com) for any questions.
