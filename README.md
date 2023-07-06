@@ -1,6 +1,7 @@
 # RA_Atlas_CITEseq
 
 [![DOI](https://zenodo.org/badge/367384023.svg)](https://zenodo.org/badge/latestdoi/367384023)
+![](https://komarev.com/ghpvc/?username=immunogenomics&style=flat-square&color=purple)
 
 ## Overview
 This repo provides the data, code, and website for our work on "Cellular deconstruction of inflamed synovium defines diverse inflammatory phenotypes in rheumatoid arthritis". The data is generated through a collaborative effort with NIH funded [AMP RA/SLE (Accelerating Medicines Partnership Rheumatoid Arthritis and Systemic Lupus Erythematosus)](https://www.niams.nih.gov/grants-funding/funded-research/accelerating-medicines/RA-SLE).
