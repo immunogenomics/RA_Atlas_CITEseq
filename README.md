@@ -17,11 +17,13 @@ This repo provides the data, code, and website for our work on "Cellular deconst
 - Microscopy analysis for different synovial phenotypes 
 ```
 
+<img src="https://github.com/immunogenomics/RA_Atlas_CITEseq/blob/master/figure/overview.png" width="800" align="center">
+
+
 
 ## Citation
 Our paper can be cited: [Zhang*, Jonsson*, Nathan*, Wei*, Millard*, *et al*, ***Nature***, 2023](https://www.nature.com/articles/s41586-023-06708-y), https://doi.org/10.1038/s41586-023-06708-y
 
-<img src="https://github.com/immunogenomics/RA_Atlas_CITEseq/blob/master/figure/overview.png" width="800" align="center">
 
 
 ## Website
