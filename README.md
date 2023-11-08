@@ -35,14 +35,9 @@ Source code for reproducing the results are available at our [Github repo](https
 
 
 ## Data availability
-CITE-seq single-cell expression matrices and sequencing and bulk
-expression matrices are available on Synapse (https://doi.org/10.7303/
-syn52297840). 
+CITE-seq single-cell expression matrices and sequencing and bulk expression matrices are available on Synapse (https://doi.org/10.7303/syn52297840). 
 
-Associated genotype and clinical data are available
-through the Arthritis and Autoimmune and Related Diseases Knowl-
-edge Portal (ARK Portal, https://arkportal.synapse.org/Explore/Data-
-sets/DetailsPage?id=syn52297840).
+Associated genotype and clinical data are available through the Arthritis and Autoimmune and Related Diseases Knowledge Portal (ARK Portal, https://arkportal.synapse.org/Explore/Datasets/DetailsPage?id=syn52297840).
 
 
 ## Contact
