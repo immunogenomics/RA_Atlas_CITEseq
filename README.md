@@ -6,7 +6,7 @@
 ## Overview
 This repo provides the data, code, and website for our work on "Cellular deconstruction of inflamed synovium defines diverse inflammatory phenotypes in rheumatoid arthritis". The data is generated through a collaborative effort with NIH funded [AMP RA/SLE (Accelerating Medicines Partnership Rheumatoid Arthritis and Systemic Lupus Erythematosus)](https://www.niams.nih.gov/grants-funding/funded-research/accelerating-medicines/RA-SLE).
 
-Our paper can be cited: [Zhang*, Jonsson*, Nathan*, Wei*, Millard*, et al, *Nature*, 2023](https://www.nature.com/articles/s41586-023-06708-y)
+Our paper can be cited: [Zhang*, Jonsson*, Nathan*, Wei*, Millard*, *et al*, ***Nature***, 2023](https://www.nature.com/articles/s41586-023-06708-y)
 
 ```
 - RA Synovial Single-cell Multimodal (transcriptomics and Proteomics) Cell Atlas
