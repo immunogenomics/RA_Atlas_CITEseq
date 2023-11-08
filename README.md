@@ -22,7 +22,7 @@ This repo provides the data, code, and website for our work on "Cellular deconst
 
 
 ## Citation
-Our paper can be cited: [Zhang*, Jonsson*, Nathan*, Wei*, Millard*, *et al*, ***Nature***, 2023](https://www.nature.com/articles/s41586-023-06708-y), https://doi.org/10.1038/s41586-023-06708-y
+Our paper can be cited: Zhang*, Jonsson*, Nathan*, Wei*, Millard*, *et al*, ***Nature***, 2023, https://www.nature.com/articles/s41586-023-06708-y
 
 
 
