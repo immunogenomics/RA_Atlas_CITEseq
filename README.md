@@ -60,8 +60,8 @@ myeloid_uwot_model
 
 Every reference data has the same format. Taking one cell type reference as an example, you will see the saved datafrmaes as follows.
 ```
-ref <- readRDS("myeloid_reference_2023-03-12.rds")
-str(ref)
+> ref <- readRDS("myeloid_reference_2023-03-12.rds")
+> str(ref)
 
  $ meta_data     :'data.frame':	76181 obs. of  7 variables:
   ..$ cell          : chr [1:76181] "BRI-399_AAACCCAGTAGGAGGG" "BRI-399_AAACGCTGTTCAAGTC" "BRI-399_AAAGGATTCTGTACAG" "BRI-399_AAAGGTAAGCTGGCTC" ...
@@ -112,6 +112,18 @@ As you can see above, the `cluster_number` and `cluster_name` are given under `r
 ```
 
 - CTAP assignment to donor ID: `CTAP_donor_mapping.xlsx`
+
+```
+> map <- read_excel("CTAP_donor_mapping.xlsx")
+> head(map)
+  subject_id   donor      CTAP
+1   300-0310 BRI-405 E + F + M
+2   300-0309 BRI-411 E + F + M
+3   300-0174 BRI-479 E + F + M
+4   300-0175 BRI-525 E + F + M
+5   300-0529 BRI-554 E + F + M
+6   300-0145 BRI-589 E + F + M
+```
 
 - Reference for all cell type integrative analysis:
 ```
