@@ -129,11 +129,11 @@ all_cells_uwot_model
  $ cell_type     : chr  "B cell" "B cell" "B cell" "B cell" ...
 ```
 
-- Raw and processed matrices:
- - **raw_mRNA_count_matrix.rds**: Raw mRNA count
- - **raw_protein_count_matrix.rds**: Raw protein count
- - **qc_mRNA_314011cells_log_normalized_matrix.rds**: QCed mRNA normalized data matrix
- - **qc_protein_CLR_normalized_filtered_matrix.rds**: QCed protein normalized data matrix
+-Raw and processed matrices:
+ -**raw_mRNA_count_matrix.rds**: Raw mRNA count
+ -**raw_protein_count_matrix.rds**: Raw protein count
+ -**qc_mRNA_314011cells_log_normalized_matrix.rds**: QCed mRNA normalized data matrix
+ -**qc_protein_CLR_normalized_filtered_matrix.rds**: QCed protein normalized data matrix
 
 
 
