@@ -39,9 +39,9 @@ CITE-seq single-cell expression matrices and sequencing and bulk expression matr
 
 Associated genotype and clinical data are available through the Arthritis and Autoimmune and Related Diseases Knowledge Portal (ARK Portal, https://arkportal.synapse.org/Explore/Datasets/DetailsPage?id=syn52297840).
 
-### Data Description ###
+#### Data Description: ####
 
-- Each cell type-specific reference based on one cell type-focused analysis. Every reference data has the same format. 
+- Each cell type-specific reference is provided based on one cell type-focused analysis. 
 
 ```
 Bcell_reference.rds
@@ -58,7 +58,7 @@ myeloid_reference.rds
 myeloid_uwot_model
 ```
 
-Taking one cell type reference as an example, you will see the saved datafrmaes as follows: 
+Every reference data has the same format. Taking one cell type reference as an example, you will see the saved datafrmaes as follows.
 ```
 ref <- readRDS("myeloid_reference_2023-03-12.rds")
 str(ref)
@@ -97,25 +97,50 @@ str(ref)
  $ save_uwot_path: chr "./myeloid_uwot_model_2021-04-29"
  ```
 
+As you can see above, the `cluster_number` and `cluster_name` are given under `ref$meta_data`. Further, some key outpus are explained as follows:
 
+``` 
+# vargenes: variable genes, means, and standard deviations used for scaling
+# loadings: gene loadings for projection into pre-Harmony PC space
+# R: Soft cluster assignments
+# Z_orig: Pre-Harmony PC embedding
+# Z_corr: Harmonized PC embedding
+# centroids: locations of final Harmony soft cluster centroids
+# cache: pre-calculated reference-dependent portions of the mixture model
+# umap: UMAP coordinates
+# save_uwot_path: path to saved uwot model (for query UMAP projection into reference UMAP coordinates)
+```
+
+- CTAP assignment to donor ID:
 ```
 CTAP_donor_mapping.xlsx
 ```
 
+- Reference for all cell type integrative analysis:
 ```
 all_cells_reference.rds
 all_cells_uwot_model
 ```
 
+- Cluster annotations for fine-grained cell states:
 ```
-fine_cluster_all_314011cells_82samples.rds
+`fine_cluster_all_314011cells_82samples.rds`
+
+'data.frame':	314011 obs. of  5 variables:
+ $ sample        : chr  "BRI-399" "BRI-399" "BRI-399" "BRI-399" ...
+ $ cell          : chr  "BRI-399_AAACGAACAGTCTGGC" "BRI-399_AAAGGATGTCTCAAGT" "BRI-399_AAAGTGACATCGAACT" "BRI-399_AAAGTGAGTGCACAAG" ...
+ $ cluster_number: chr  "B-2" "B-1" "B-2" "B-1" ...
+ $ cluster_name  : Factor w/ 77 levels "B-0: CD24+CD27+CD11b+ switched memory",..: 2 4 2 4 1 4 3 3 2 8 ...
+ $ cell_type     : chr  "B cell" "B cell" "B cell" "B cell" ...
 ```
 
+- Raw and processed matrices:
 ```
-qc_mRNA_314011cells_log_normalized_matrix.rds
-qc_protein_CLR_normalized_filtered_matrix.rds
-raw_mRNA_count_matrix.rds
-raw_protein_count_matrix.rds
+`raw_mRNA_count_matrix.rds`: Raw mRNA count
+`raw_protein_count_matrix.rds`: Raw protein count
+`qc_mRNA_314011cells_log_normalized_matrix.rds`: QCed mRNA normalized data matrix
+`qc_protein_CLR_normalized_filtered_matrix.rds`: QCed protein normalized data matrix
+
 ```
 
 
