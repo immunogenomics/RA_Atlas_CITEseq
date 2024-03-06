@@ -111,10 +111,7 @@ As you can see above, the `cluster_number` and `cluster_name` are given under `r
 # save_uwot_path: path to saved uwot model (for query UMAP projection into reference UMAP coordinates)
 ```
 
-- CTAP assignment to donor ID:
-```
-CTAP_donor_mapping.xlsx
-```
+- CTAP assignment to donor ID: `CTAP_donor_mapping.xlsx`
 
 - Reference for all cell type integrative analysis:
 ```
@@ -122,10 +119,8 @@ all_cells_reference.rds
 all_cells_uwot_model
 ```
 
-- Cluster annotations for fine-grained cell states:
+- Cluster annotations for fine-grained cell states: `fine_cluster_all_314011cells_82samples.rds`
 ```
-`fine_cluster_all_314011cells_82samples.rds`
-
 'data.frame':	314011 obs. of  5 variables:
  $ sample        : chr  "BRI-399" "BRI-399" "BRI-399" "BRI-399" ...
  $ cell          : chr  "BRI-399_AAACGAACAGTCTGGC" "BRI-399_AAAGGATGTCTCAAGT" "BRI-399_AAAGTGACATCGAACT" "BRI-399_AAAGTGAGTGCACAAG" ...
@@ -136,7 +131,7 @@ all_cells_uwot_model
 
 - Raw and processed matrices:
 
-+ *raw_mRNA_count_matrix.rds*: Raw mRNA count
+++ *raw_mRNA_count_matrix.rds*: Raw mRNA count
 + *raw_protein_count_matrix.rds*: Raw protein count
 + *qc_mRNA_314011cells_log_normalized_matrix.rds*: QCed mRNA normalized data matrix
 + *qc_protein_CLR_normalized_filtered_matrix.rds*: QCed protein normalized data matrix
