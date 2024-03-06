@@ -39,6 +39,32 @@ CITE-seq single-cell expression matrices and sequencing and bulk expression matr
 
 Associated genotype and clinical data are available through the Arthritis and Autoimmune and Related Diseases Knowledge Portal (ARK Portal, https://arkportal.synapse.org/Explore/Datasets/DetailsPage?id=syn52297840).
 
+*** Data Description ***
+
+```
+Bcell_reference.rds
+Bcell_uwot_model
+Bulk_7samples_AMP-ids.rds
+CTAP_donor_mapping.xlsx
+NK_reference.rds
+NK_uwot_model
+T_reference.rds
+T_uwot_model
+all_cells_reference.rds
+all_cells_uwot_model
+endothelial_reference.rds
+endothelial_uwot_model
+fibroblast_reference.rds
+fibroblast_uwot_model
+fine_cluster_all_314011cells_82samples.rds
+myeloid_reference.rds
+myeloid_uwot_model
+qc_mRNA_314011cells_log_normalized_matrix.rds
+qc_protein_CLR_normalized_filtered_matrix.rds
+raw_mRNA_count_matrix.rds
+raw_protein_count_matrix.rds
+```
+
 
 ## Contact
 Please email Fan Zhang (fanzhanglab@gmail.com) and Helena Jonsson (a.helena.jonsson@gmail.com) for any questions.
