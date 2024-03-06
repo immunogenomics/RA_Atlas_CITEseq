@@ -130,6 +130,7 @@ all_cells_uwot_model
 ```
 
 -Raw and processed matrices:
+
  -**raw_mRNA_count_matrix.rds**: Raw mRNA count
  -**raw_protein_count_matrix.rds**: Raw protein count
  -**qc_mRNA_314011cells_log_normalized_matrix.rds**: QCed mRNA normalized data matrix
