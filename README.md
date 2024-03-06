@@ -41,7 +41,7 @@ Associated genotype and clinical data are available through the Arthritis and Au
 
 #### Data Description: ####
 
-- Each cell type-specific reference is provided based on one cell type-focused analysis. 
+- Each cell type-specific reference is provided based on one cell type-focused analysis. This could support the reference mapping as a downstream analysis to query cells from other data platforms.
 
 ```
 Bcell_reference.rds
@@ -58,7 +58,7 @@ myeloid_reference.rds
 myeloid_uwot_model
 ```
 
-Every reference data has the same format. Taking one cell type reference as an example, you will see the saved datafrmaes as follows.
+Every reference data has the same data structure format. Taking one cell type reference as an example, you will see the substructures as follows.
 ```
 > ref <- readRDS("myeloid_reference_2023-03-12.rds")
 > str(ref)
