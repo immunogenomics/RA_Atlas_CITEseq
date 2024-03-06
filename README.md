@@ -41,7 +41,7 @@ Associated genotype and clinical data are available through the Arthritis and Au
 
 #### Data Description: ####
 
-- Each cell type-specific reference is provided based on one cell type-focused analysis. This could support the reference mapping as a downstream analysis to query cells from other data platforms.
+- Each cell type-specific reference is provided based on one cell type-focused analysis. This could support reference mapping analysis based on the anchor genes, a downstream analysis to query and annotate cells from other disease contexts.
 
 ```
 Bcell_reference.rds
